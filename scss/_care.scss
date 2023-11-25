@@ -1,0 +1,104 @@
+.care{
+    max-width: 1600px;
+    width: 100%;
+    background-color:#3D4A39;
+    margin-right: auto;
+    margin-left: auto;
+}
+.care--container{
+    max-width: 996px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    // TITLE 
+    .care__title {
+    margin-bottom: 73px;
+    color:  #FFF;
+        text-align: center;
+/* заголовок_H2 */
+    font-family: 'Raleway';
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 57.5px */
+    text-transform: uppercase;
+    }
+    .care__first-elements{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+
+    .care__second-elements{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+.element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+   .element__name{
+    color: #FFF;
+    opacity: 0.5;
+    /* Заголовок_H5 (medium) */
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 31.2px */
+   }
+    .room{
+        width: 66px;
+        height: 66px;
+    }
+    .furniture{
+        width: 46px;
+        height: 69px;
+    }
+    .burner{
+        width: 63px;
+        height: 63px;
+    }
+    .door{
+        width: 68px;
+        height: 68px;
+    }
+    .floor{
+        width: 66px;
+        height: 66px;
+    }
+    .brainstorm{
+        width: 66px;
+        height: 66px;
+    }
+    .floor1{
+        text-align: center;
+        width: 278px;
+    }
+}
+@media screen and (max-width:700px) {
+   .care--container{
+    display: flex;
+    justify-content: space-between;
+
+    .care__first-elements{
+        display: flex;
+        flex-direction: column;
+    }
+    .care__second-elements{
+        display: flex;
+        flex-direction: column;
+    }
+   }
+}

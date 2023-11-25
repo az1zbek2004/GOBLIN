@@ -1,0 +1,13 @@
+@import "./nav";
+@import "./hero";
+@import "./main-container";
+@import "../scss/care";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    text-decoration: none;
+    list-style-type: none;
+}

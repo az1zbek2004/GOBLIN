@@ -1,0 +1,127 @@
+.hero{
+    background: url(../image/hero\ picture.png) no-repeat 0 -90px;
+    max-width: 1600px;
+    height: 687px;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+    background-position:0 -90px ;
+    margin-bottom: 140px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    align-items: center;
+
+    .hero__title{
+    margin-bottom: 20px;
+    width: 446px;
+    color: #FFF;
+    text-align: center;
+    /* Заголовок_H1 */
+    font-family: 'Lato';
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 67.2px */
+    text-transform: uppercase;
+    }
+    .hero__text{
+    width: 480px;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 50px;
+    /* text_18px (medium) */
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+    }
+    .submit{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 260px;
+    padding: 22px 56px;
+    align-items: flex-start;
+    gap: 10px;
+    background: #AE7B3C;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+
+    /* text_botton */
+    color:#FFF;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 16px */
+    margin-bottom: 120px;
+    &:hover{
+        background: #c57b22;
+    }
+    }
+
+    .footer{
+
+        display: flex;
+        width: 1200px;
+        justify-content: space-between;
+        align-items:start;
+        border-top: 1px solid rgba(255, 255, 255, 0.4);
+        padding-top: 25px;
+        .bearer_icons{
+        display: flex;
+        gap: 25px;
+    }
+
+}
+}
+
+
+.three-divide{
+    display: flex;
+    gap: 15px;
+    .first-section{
+        opacity: 0.4;
+    }
+    .second-section{
+        opacity: 0.4;
+    }
+        
+span{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        width: 32px;
+        height: 32px;
+        flex-shrink: 0;
+        border-radius: 50%;
+        border: 1px solid #FFF;
+        color:  #FFF;
+/* text_16px (medium)(Lato) */
+        font-family: 'Lato';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%; /* 16px */
+    }
+}
+
+
+// Responsive
+ @media screen and (max-width:1000px){
+        .hero{
+            background-size:100% 100%;
+            footer{
+                max-width: 900px;
+            }
+        }
+ }
+ @media screen and (max-width:px){
+        .hero{
+            background-size:100% 100%;
+        }
+ }
